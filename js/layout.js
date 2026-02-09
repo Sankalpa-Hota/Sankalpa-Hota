@@ -71,7 +71,7 @@
           window.addEventListener('hashchange', onHashChange);
         })
         .catch(function () {
-          footerPlaceholder.outerHTML = '<footer class="site-footer"><p class="footer-credit"><a href="mailto:sankalpahota503@gmail.com">sankalpahota503@gmail.com</a> · <a href="index.html#connect">Connect</a></p></footer>';
+          footerPlaceholder.outerHTML = '<footer class="site-footer"><p class="footer-credit">“Smarter silicon, better systems, and building what doesn’t exist yet.”</p></footer>';
         });
     }
   }
