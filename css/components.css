@@ -139,9 +139,9 @@
   transition: background var(--transition), color var(--transition), border-color var(--transition), box-shadow var(--transition);
 }
 
-.btn-primary { background: var(--accent); color: var(--paper); }
+.btn-primary { background: var(--accent-light); color: var(--ink); }
 
-.btn-primary:hover { background: var(--accent-hover); box-shadow: var(--shadow-hover); }
+.btn-primary:hover { background: var(--accent); color: var(--paper); box-shadow: var(--shadow-hover); }
 
 .btn-outline { border: 2px solid var(--border-strong); color: var(--forest); }
 
@@ -168,6 +168,15 @@
   margin: -0.25rem 0 1.5rem;
   font-size: 0.98rem;
   line-height: 1.6;
+}
+
+.section-subhead {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 2rem 0 0.75rem;
+  letter-spacing: 0.02em;
 }
 
 .section-lead a { color: var(--accent); text-decoration: none; }
@@ -452,18 +461,19 @@
   margin: 0 0 2rem;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 0.5rem;
 }
 
 .skills-pills li {
   font-size: 0.9rem;
   color: var(--ink-soft);
-  padding: 0.4rem 0.85rem;
+  padding: 0.5rem 1rem;
   background: var(--paper-warm);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: var(--radius);
   margin: 0;
+  display: block;
 }
 
 .skills-pills li:hover { border-color: var(--accent); color: var(--forest); }

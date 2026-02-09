@@ -6,7 +6,7 @@ window.PROFILE = {
     linkedin: "https://linkedin.com/in/sankalpa-hota-86937517a/",
     github: "https://github.com/Sankalpa-Hota",
     instagram: "https://instagram.com/sankalpa_hota_",
-    email: "shota@ucsd.edu"
+    email: "sankalpahota503@gmail.com"
   },
   building: [
     { title: "Systolic array for CNN inference", oneLine: "Reconfigurable 2D array on FPGA. 69% lower latency, 82% memory savings.", link: null, type: "research" },

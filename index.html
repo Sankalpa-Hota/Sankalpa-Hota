@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sankalpa Hota</title>
-  <meta name="description" content="Sankalpa Hota. VLSI, RTL, ML accelerators. UCSD. Micron alum. Startups and building from zero." />
+  <meta name="description" content="Sankalpa Hota. VLSI, RTL, ML accelerators. UCSD. Micron alum. One-page portfolio." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
@@ -14,22 +14,22 @@
   <div class="page">
     <div id="site-header-placeholder"></div>
     <main id="main">
-      <!-- Update: name, tagline, email below; add profile image in hero if needed -->
-      <section class="hero">
+      <!-- Hero -->
+      <section class="hero" id="home">
         <p class="hero-greeting">Hi there!</p>
         <h1>I'm Sankalpa Hota</h1>
         <span class="hero-underline" aria-hidden="true"></span>
         <p class="tagline intro-paragraph">I'm an MS in Electrical and Computer Engineering student at UC San Diego with a passion for VLSI, RTL design, and ML accelerators. I'm fueled by the challenge of turning ideas into silicon—from RTL to tape-out. For the past three years, I worked as a Semiconductor Engineer at Micron, where I focused on RTL, PCIe Gen5, NVMe 2.0, and FPGA bring-up, and co-authored three US patents. My skillset spans the full IC flow: RTL design and verification, physical design and timing, and algorithm–hardware co-design for ML workloads. I'm also comfortable with Python, C++, and scripting, and I'm intrigued by the potential of near-memory compute and smarter silicon. Welcome to my portfolio, where you'll find a glimpse into my work and what I'm capable of!</p>
         <div class="hero-links">
-          <a href="mailto:shota@ucsd.edu" class="btn btn-primary">Say hello</a>
+          <a href="#connect" class="btn btn-primary">Say hello</a>
           <a href="https://linkedin.com/in/sankalpa-hota-86937517a/" target="_blank" rel="noopener">LinkedIn</a>
           <a href="https://github.com/Sankalpa-Hota" target="_blank" rel="noopener">GitHub</a>
           <a href="https://instagram.com/sankalpa_hota_" target="_blank" rel="noopener">Instagram</a>
         </div>
-        <p class="contact-line"><a href="mailto:shota@ucsd.edu">shota@ucsd.edu</a></p>
+        <p class="contact-line"><a href="mailto:sankalpahota503@gmail.com">sankalpahota503@gmail.com</a></p>
       </section>
 
-      <section class="section skills-home-section">
+      <section class="section skills-home-section" id="skills">
         <h2>Technical Skills</h2>
         <div class="skills-home-block">
           <p class="skills-home-row"><strong>Languages:</strong> SystemVerilog, Verilog, C++, UVM, C, Tcl/Tk, Perl, Shell, MATLAB</p>
@@ -37,81 +37,191 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="about">
+        <h2>About</h2>
+        <p class="pullquote">I'm wired for the gap between silicon and systems. That's where RTL meets reality.</p>
+        <div class="narrative">
+          <p>MS ECE from UC San Diego, B.Tech from NIT Rourkela. My stack spans C++, CUDA, Python, PyTorch, and the full IC flow: RTL (Verilog/SystemVerilog), UVM verification, STA, physical design, layout. I've taped out low-power CNN ASICs, data encryption cores for Flash, and MIPS-based designs. At Micron I lived in the firmware-hardware boundary: IP design, reliability, validation for next-gen SSDs and microSD. PCIe Gen5, NVMe 2.0, 3D NAND, DDR4, LPDDR5, FTL. Three US patents in the pipeline on high-performance memory architecture.</p>
+          <p>What keeps me going is <strong>smarter silicon</strong>. IC design that scales. AI infrastructure that fits in memory and at the edge. I'm drawn to startups for the same reason: first principles, fast iteration, building what doesn't exist yet. I care about clear interfaces between blocks, readable RTL, and verification that actually catches bugs.</p>
+        </div>
+        <h3 class="section-subhead">Ideas I care about</h3>
+        <ul class="skills-pills">
+          <li>Hardware that scales</li>
+          <li>AI silicon &amp; memory</li>
+          <li>RTL → GDS that actually closes</li>
+          <li>Protocols done right (PCIe, NVMe)</li>
+          <li>Startups and first principles</li>
+          <li>Verification that ships</li>
+          <li>Open tools and reproducible flows</li>
+        </ul>
+      </section>
+
+      <section class="section" id="learn">
+        <h2>Learn</h2>
+        <p class="page-lead">Schools, labs, and beyond the classroom.</p>
+        <div class="edu-list">
+          <article class="edu-card">
+            <div class="edu-meta">Sep 2025 – Present</div>
+            <h3>UC San Diego</h3>
+            <p class="degree">MS, Electrical and Computer Engineering</p>
+            <p class="gpa">3.77/4.00</p>
+            <p class="coursework">Lab: <a href="https://seelab.ucsd.edu/" target="_blank" rel="noopener">System Energy Efficiency Lab (SEELAB)</a>. Courses: Computer Architecture, VLSI Digital System Arch. and Algorithms, Low-Power VLSI for ML, VLSI Integrated Computing Circuitry, Solid State Electronics I, Wireless Networks.</p>
+          </article>
+          <article class="edu-card">
+            <div class="edu-meta">Jan 2018 – Jul 2022</div>
+            <h3>NIT Rourkela</h3>
+            <p class="degree">B.Tech, Electrical Engineering · Minor in Computer Science</p>
+            <p class="gpa">3.93/4.00 (WES) · 8.98/10 (EE) · 9.0/10 (CSE minor)</p>
+            <p class="coursework">Founder and President, The Short Circuit Club (E&amp;E club, 2021–22). Placement Coordinator, EE Dept., Career Development Center (2021–22). Courses: Embedded Systems, Computer Architecture, Analog and Digital Electronics, DSP, DSA, Machine Learning.</p>
+          </article>
+        </div>
+        <p class="narrative" style="margin-top: 1.5rem;">At NIT Rourkela I co-founded and led The Short Circuit Club (E&amp;E), and was Placement Coordinator for the EE department. At UCSD I'm in SEELAB focusing on energy-efficient systems and ML accelerators.</p>
+      </section>
+
+      <section class="section" id="chapters">
+        <h2>Chapters</h2>
+        <p class="page-lead">Where I've been. Story, not bullets.</p>
+        <article class="chapter">
+          <p class="chapter-meta">Apr 2024 – Aug 2025</p>
+          <h3>Semiconductor Engineer II · Micron</h3>
+          <p class="chapter-story">I led RTL and integration for Flash/Cache retention and PCIe Gen5 TLP/DLLP datapaths, and designed and validated control logic for NAND, DDR, NVMe, and PCIe on FPGA. A lot of my time went into debug: waveforms, protocol traces, JTAG, UART. I worked closely with firmware, NAND, and physical design to close issues. I co-authored three US patents on firmware-hardware co-design for memory and physical link layers. Highlights: Bringing up PCIe Gen5 on FPGA, closing timing and power for datapath blocks, and driving root-cause analysis across RTL, firmware, and protocol stacks.</p>
+        </article>
+        <article class="chapter">
+          <p class="chapter-meta">Aug 2022 – Apr 2024</p>
+          <h3>Semiconductor Engineer I · Micron</h3>
+          <p class="chapter-story">I built RTL validation for microSD controllers on AMD Zynq 7000 and ran stress-driven verification for ARM controllers (NVMe 2.0) across workloads and environments. I focused on data retention, recovery, and integrity. I also contributed to test plans, automation, and documentation so that validation could scale across multiple controller families and firmware releases.</p>
+        </article>
+      </section>
+
+      <section class="section" id="building">
         <h2>Building</h2>
-        <p class="section-lead">Research and code I'm working on. Things that actually ship.</p>
+        <p class="section-lead">Research and code. Things that ship.</p>
+        <h3 class="section-subhead">Research</h3>
         <div class="story-grid">
           <div class="story-card">
-            <h3>Systolic array for CNN inference</h3>
-            <p class="story-meta">Research</p>
-            <p class="story-one">Reconfigurable 2D array on FPGA. 69% lower latency, 82% memory savings. Input sieving, parallel accumulation, pipelining.</p>
+            <h3>Performance-enhanced reconfigurable 2D systolic array</h3>
+            <p class="story-meta">Sept 2025 – Dec 2025</p>
+            <p class="story-one">Reconfigurable systolic array for low-power CNN inference on FPGA. 69% lower latency, 82% memory savings. Synthesized on Cyclone V (Quartus), verified with UVM.</p>
           </div>
           <div class="story-card">
-            <h3>Dual-core ML accelerator for attention</h3>
-            <p class="story-meta">Research</p>
-            <p class="story-one">Vector processor, pipelined attention weights, RTL→GDSII. Async FIFOs, block-wise clock gating.</p>
+            <h3>Dual-core ML accelerator for transformer attention</h3>
+            <p class="story-meta">Sept 2025 – Ongoing</p>
+            <p class="story-one">1-D vector processor with pipelined execution for parallel attention weights. Full RTL→GDSII, async FIFOs, block-wise and columnar clock gating.</p>
           </div>
           <div class="story-card">
             <h3>Near-memory crypto engine</h3>
-            <p class="story-meta">Research</p>
-            <p class="story-one">AES at PCIe Gen5 throughput; nonce, replay, ready/valid flow. DRAM/SRAM and near-memory ECC in progress.</p>
+            <p class="story-meta">Sept 2025 – Ongoing</p>
+            <p class="story-one">AES RTL (Verilog) at PCIe Gen5 throughput. Nonce, replay, ready/valid flow. DRAM/SRAM and near-memory ECC in progress.</p>
           </div>
+          <div class="story-card">
+            <h3>Biosensors in the sub-nanometer regime</h3>
+            <p class="story-meta">Jul 2021 – May 2022 · NIT Rourkela</p>
+            <p class="story-one">Negative-capacitance FINFET for biosensing. Synopsys TCAD. Grade A, final-year project.</p>
+          </div>
+        </div>
+        <h3 class="section-subhead">Tools and code</h3>
+        <div class="story-grid">
           <a href="https://github.com/Sankalpa-Hota/semiconductor-physics-tool" target="_blank" rel="noopener" class="story-card">
             <h3>Semiconductor Physics Tool</h3>
-            <p class="story-meta">Tool</p>
-            <p class="story-one">Flask, Plotly, Python. Fermi-Dirac, Drude, phonon scattering, Kronig-Penney, reciprocal lattice. For students and researchers.</p>
-            <span class="story-link">View on GitHub →</span>
+            <p class="story-meta">Flask, Plotly, Python</p>
+            <p class="story-one">Fermi-Dirac, Drude, phonon, Kronig-Penney, reciprocal lattice. For students and researchers.</p>
+            <span class="story-link">GitHub →</span>
           </a>
           <a href="https://github.com/Sankalpa-Hota/VLSI_PCIe" target="_blank" rel="noopener" class="story-card">
             <h3>VLSI PCIe</h3>
-            <p class="story-meta">Code</p>
-            <p class="story-one">Verilog endpoint: Physical, Data Link, Transaction; link training, DLLP/TLP, BAR, AXI.</p>
-            <span class="story-link">View on GitHub →</span>
+            <p class="story-meta">Verilog</p>
+            <p class="story-one">PCIe endpoint: Physical, Data Link, Transaction; link training, DLLP/TLP, BAR, AXI.</p>
+            <span class="story-link">GitHub →</span>
           </a>
           <a href="https://github.com/Sankalpa-Hota/RTL_IN_VERILOG" target="_blank" rel="noopener" class="story-card">
             <h3>RTL in Verilog</h3>
-            <p class="story-meta">Code</p>
+            <p class="story-meta">Verilog</p>
             <p class="story-one">RTL blocks from basic to advanced.</p>
-            <span class="story-link">View on GitHub →</span>
+            <span class="story-link">GitHub →</span>
           </a>
           <a href="https://github.com/Sankalpa-Hota/Chacha20-Poly1305-Memory-Processing" target="_blank" rel="noopener" class="story-card">
             <h3>Chacha20–Poly1305 in-memory</h3>
-            <p class="story-meta">Code</p>
+            <p class="story-meta">Verilog</p>
             <p class="story-one">In-memory processing and encryption for memory architectures.</p>
-            <span class="story-link">View on GitHub</span>
+            <span class="story-link">GitHub →</span>
           </a>
         </div>
-        <p style="margin-top: 1.25rem;"><a href="projects.html" class="btn btn-outline">More projects</a> <a href="github.html" class="btn btn-outline">All code</a></p>
       </section>
 
-      <section class="section">
-        <h2>Previously</h2>
-        <p class="narrative">Semiconductor Engineer at Micron (2022–2025). RTL, PCIe Gen5, NVMe, Flash/Cache, FPGA bring-up. Three US patents. I worked on Flash and cache retention, TLP/DLLP datapaths, and validation on AMD Zynq and custom FPGAs. <a href="experience.html">Chapters →</a></p>
-      </section>
-
-      <section class="section">
-        <h2>Elsewhere</h2>
-        <div class="elsewhere-list">
-          <a href="https://linkedin.com/in/sankalpa-hota-86937517a/" target="_blank" rel="noopener">LinkedIn</a>
-          <span class="dot">·</span>
-          <a href="https://github.com/Sankalpa-Hota" target="_blank" rel="noopener">GitHub</a>
-          <span class="dot">·</span>
-          <a href="https://instagram.com/sankalpa_hota_" target="_blank" rel="noopener">Instagram</a>
-          <span class="dot">·</span>
-          <a href="blog/index.html">Blog</a>
-          <span class="dot">·</span>
-          <a href="connect.html">Connect</a>
+      <section class="section" id="code">
+        <h2>Code</h2>
+        <p class="section-lead">Repos on GitHub. Clone, fork, or open an issue.</p>
+        <div class="repo-grid">
+          <a href="https://github.com/Sankalpa-Hota/RTL_IN_VERILOG" target="_blank" rel="noopener" class="repo-card">
+            <span class="repo-name">RTL_IN_VERILOG</span>
+            <span class="repo-desc">RTL blocks from basic to advanced design</span>
+            <span class="repo-lang">Verilog</span>
+          </a>
+          <a href="https://github.com/Sankalpa-Hota/VLSI_PCIe" target="_blank" rel="noopener" class="repo-card">
+            <span class="repo-name">VLSI_PCIe</span>
+            <span class="repo-desc">Verilog PCIe Endpoint: Physical, Data Link, Transaction; link training, DLLP/TLP, BAR, AXI</span>
+            <span class="repo-lang">Verilog</span>
+          </a>
+          <a href="https://github.com/Sankalpa-Hota/4-TAP-FIR-FILTER" target="_blank" rel="noopener" class="repo-card">
+            <span class="repo-name">4-TAP-FIR-FILTER</span>
+            <span class="repo-desc">4-tap FIR filter design</span>
+            <span class="repo-lang">SystemVerilog</span>
+          </a>
+          <a href="https://github.com/Sankalpa-Hota/Chacha20-Poly1305-Memory-Processing" target="_blank" rel="noopener" class="repo-card">
+            <span class="repo-name">Chacha20-Poly1305-Memory-Processing</span>
+            <span class="repo-desc">In-memory processing and encryption</span>
+            <span class="repo-lang">Verilog</span>
+          </a>
+          <a href="https://github.com/Sankalpa-Hota/semiconductor-physics-tool" target="_blank" rel="noopener" class="repo-card">
+            <span class="repo-name">semiconductor-physics-tool</span>
+            <span class="repo-desc">Flask, Plotly, Python: Fermi-Dirac, Drude, phonon, Kronig-Penney</span>
+            <span class="repo-lang">Python</span>
+          </a>
+          <a href="https://github.com/Sankalpa-Hota" target="_blank" rel="noopener" class="repo-card repo-card-more">
+            <span class="repo-name">View all on GitHub →</span>
+          </a>
         </div>
-        <p class="sync-note">Profile and projects are synced from my <a href="https://linkedin.com/in/sankalpa-hota-86937517a/" target="_blank" rel="noopener">LinkedIn</a> and <a href="https://github.com/Sankalpa-Hota" target="_blank" rel="noopener">GitHub</a>. Update <code>js/data/profile.js</code> when you update there.</p>
       </section>
 
-      <section class="section reach-out">
-        <h2>Let's talk</h2>
+      <section class="section" id="blog">
+        <h2>Blog</h2>
+        <p class="section-lead">Notes on VLSI, RTL, ML accelerators, and what I'm building.</p>
+        <div class="story-card" style="max-width: 100%;">
+          <h3>Welcome to my blog</h3>
+          <p class="story-meta">Feb 8, 2025</p>
+          <p class="story-one">I'm sharing notes on VLSI, RTL design, ML accelerators, and occasional startup thoughts—RTL and verification (SystemVerilog, UVM), computer architecture, systolic arrays and attention, protocols (PCIe, NVMe), and building in public. I'll keep posts practical where I can.</p>
+        </div>
+      </section>
+
+      <section class="section" id="reports">
+        <h2>Reports</h2>
+        <p class="narrative">Technical reports and write-ups. I'll add links as I finalize course reports and project write-ups. <a href="mailto:sankalpahota503@gmail.com">Email me</a> for a copy or discussion.</p>
+        <div class="reports-list" style="margin-top: 1rem;">
+          <p class="placeholder">Add PDF or document links here when ready.</p>
+        </div>
+      </section>
+
+      <section class="section reach-out" id="connect">
+        <h2>Connect</h2>
         <p class="section-lead">Collaborations, research, or startup ideas. I'm in.</p>
-        <div class="reach-out-links">
-          <a href="mailto:shota@ucsd.edu">shota@ucsd.edu</a>
-          <span class="sep">·</span>
-          <a href="connect.html">All ways to connect →</a>
+        <a href="mailto:sankalpahota503@gmail.com" class="btn btn-primary connect-cta" style="margin-bottom: 1rem;">Email me — sankalpahota503@gmail.com</a>
+        <div class="connect-grid">
+          <a href="mailto:sankalpahota503@gmail.com" class="connect-card">
+            <span class="connect-label">Email</span>
+            <span class="connect-value">sankalpahota503@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/sankalpa-hota-86937517a/" target="_blank" rel="noopener" class="connect-card">
+            <span class="connect-label">LinkedIn</span>
+            <span class="connect-value">linkedin.com/in/sankalpa-hota-86937517a</span>
+          </a>
+          <a href="https://github.com/Sankalpa-Hota" target="_blank" rel="noopener" class="connect-card">
+            <span class="connect-label">GitHub</span>
+            <span class="connect-value">github.com/Sankalpa-Hota</span>
+          </a>
+          <a href="https://instagram.com/sankalpa_hota_" target="_blank" rel="noopener" class="connect-card">
+            <span class="connect-label">Instagram</span>
+            <span class="connect-value">@sankalpa_hota_</span>
+          </a>
         </div>
       </section>
     </main>

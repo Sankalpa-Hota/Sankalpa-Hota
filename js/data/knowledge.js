@@ -2,10 +2,10 @@
 window.CHATBOT_KNOWLEDGE = {
   greeting: "Hi, I'm a quick FAQ bot for Sankalpa's site. Ask about education, experience, projects, blog, GitHub, or how to contact him. Try: \"What does Sankalpa do?\" or \"How can I reach him?\"",
 
-  fallback: "Not sure about that. Try About, Learn, Chapters, Building, Code, Blog, or <a href=\"mailto:shota@ucsd.edu\">email him</a>.",
+  fallback: "Not sure about that. Try About, Learn, Chapters, Building, Code, Blog, or <a href=\"mailto:sankalpahota503@gmail.com\">email him</a>.",
 
   links: {
-    email: "mailto:shota@ucsd.edu",
+    email: "mailto:sankalpahota503@gmail.com",
     linkedin: "https://linkedin.com/in/sankalpa-hota-86937517a/",
     github: "https://github.com/Sankalpa-Hota",
     instagram: "https://instagram.com/sankalpa_hota_",
@@ -19,7 +19,7 @@ window.CHATBOT_KNOWLEDGE = {
     },
     {
       keywords: ["contact", "email", "reach", "mail", "get in touch", "phone", "number"],
-      reply: "You can reach Sankalpa by email at <a href=\"mailto:shota@ucsd.edu\">shota@ucsd.edu</a>. All contact options are on the <a href=\"connect.html\">Connect</a> page."
+      reply: "You can reach Sankalpa by email at <a href=\"mailto:sankalpahota503@gmail.com\">sankalpahota503@gmail.com</a>. All contact options are on the <a href=\"connect.html\">Connect</a> page."
     },
     {
       keywords: ["linkedin", "linked in", "profile"],
@@ -43,7 +43,7 @@ window.CHATBOT_KNOWLEDGE = {
     },
     {
       keywords: ["startup", "startups", "interest", "building"],
-      reply: "Sankalpa is interested in startups and building from zero. Product thinking, fast iteration, deep tech and venture. He's open to conversations. Email him at <a href=\"mailto:shota@ucsd.edu\">shota@ucsd.edu</a> or read the <a href=\"about.html\">About</a> page."
+      reply: "Sankalpa is interested in startups and building from zero. Product thinking, fast iteration, deep tech and venture. He's open to conversations. Email him at <a href=\"mailto:sankalpahota503@gmail.com\">sankalpahota503@gmail.com</a> or read the <a href=\"about.html\">About</a> page."
     },
     {
       keywords: ["what does sankalpa do", "who is sankalpa", "about sankalpa", "background"],
@@ -55,7 +55,7 @@ window.CHATBOT_KNOWLEDGE = {
     },
     {
       keywords: ["reports", "pdf", "papers", "publications"],
-      reply: "Technical reports and write-ups are linked on the <a href=\"reports.html\">Reports</a> page. You can also <a href=\"mailto:shota@ucsd.edu\">email</a> him to ask for a copy or discuss."
+      reply: "Technical reports and write-ups are linked on the <a href=\"reports.html\">Reports</a> page. You can also <a href=\"mailto:sankalpahota503@gmail.com\">email</a> him to ask for a copy or discuss."
     },
     {
       keywords: ["blog", "blogs", "posts", "articles", "writing"],

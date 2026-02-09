@@ -60,7 +60,7 @@ See **[DEPLOY.md](DEPLOY.md)** for full steps: create repo → push → Settings
 
 ## Links
 
-- Email: shota@ucsd.edu  
+- Email: sankalpahota503@gmail.com  
 - LinkedIn: [linkedin.com/in/sankalpa-hota-86937517a/](https://linkedin.com/in/sankalpa-hota-86937517a/)  
 - GitHub: [github.com/Sankalpa-Hota](https://github.com/Sankalpa-Hota)  
 - Instagram: [@sankalpa_hota_](https://instagram.com/sankalpa_hota_)

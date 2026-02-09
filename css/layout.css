@@ -18,6 +18,11 @@
   z-index: 0;
 }
 
+/* Anchor scroll: leave space under sticky header */
+#main section[id] {
+  scroll-margin-top: 4rem;
+}
+
 .site-header {
   position: sticky;
   top: 0;
