@@ -35,11 +35,11 @@ window.CHATBOT_KNOWLEDGE = {
     },
     {
       keywords: ["projects", "systolic", "accelerator", "crypto", "ml", "vlsi", "fpga"],
-      reply: "Research: systolic array, ML accelerator for attention, near-memory crypto, NC-FINFET biosensors (NIT). Tools: Semiconductor Physics Tool (Flask/Plotly). Code: VLSI PCIe, RTL, Chacha20-Poly1305. See “Research &amp; projects” on this page."
+      reply: "Research: systolic array, ML accelerator for attention, near-memory crypto, NC-FINFET biosensors (NIT). Tools: Semiconductor Physics Tool (Flask/Plotly). Code: VLSI PCIe, RTL, C++ for Firmware. See “Research &amp; projects” on this page."
     },
     {
       keywords: ["github", "repos", "repositories", "code", "verilog", "rtl", "pcie"],
-      reply: "Code lives at <a href=\"https://github.com/Sankalpa-Hota\" target=\"_blank\" rel=\"noopener\">github.com/Sankalpa-Hota</a>. VLSI PCIe, RTL blocks, FIR filter, Chacha20-Poly1305."
+      reply: "Code lives at <a href=\"https://github.com/Sankalpa-Hota\" target=\"_blank\" rel=\"noopener\">github.com/Sankalpa-Hota</a>. VLSI PCIe, RTL blocks, C++ for Firmware."
     },
     {
       keywords: ["startup", "startups", "interest", "building"],

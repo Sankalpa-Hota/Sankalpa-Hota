@@ -15,7 +15,7 @@ window.PROFILE = {
     { title: "Semiconductor Physics Tool", oneLine: "Device Physics, Plotly, Python. Fermi-Dirac, Drude, phonon, Kronig-Penney.", link: "https://github.com/Sankalpa-Hota/semiconductor-physics-tool", type: "tool" },
     { title: "VLSI PCIe", oneLine: "Verilog endpoint: Physical, Data Link, Transaction; link training, DLLP/TLP.", link: "https://github.com/Sankalpa-Hota/VLSI_PCIe", type: "code" },
     { title: "RTL in Verilog", oneLine: "RTL blocks from basic to advanced.", link: "https://github.com/Sankalpa-Hota/RTL_IN_VERILOG", type: "code" },
-    { title: "Chacha20-Poly1305 in-memory", oneLine: "In-memory processing and encryption for memory architectures.", link: "https://github.com/Sankalpa-Hota/Chacha20-Poly1305-Memory-Processing", type: "code" }
+    { title: "C++ for Firmware", oneLine: "C++ fundamentals to data structures, algorithms, and real firmware development.", link: "https://github.com/Sankalpa-Hota/C-for-Firmware", type: "code" }
   ],
   previously: "Semiconductor Engineer at Micron (2022–2025). RTL, PCIe Gen5, NVMe, Flash/Cache, FPGA bring-up. Three US patents.",
   chapters: [
