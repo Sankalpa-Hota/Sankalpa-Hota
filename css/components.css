@@ -590,6 +590,15 @@
 
 .quick-links .btn-outline { font-size: 0.9rem; padding: 0.5rem 1rem; }
 
+.reports-actions {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
+.reports-actions .resume-link {
+  display: inline-block;
+}
+
 .narrative {
   font-size: 1.05rem;
   line-height: 1.75;
