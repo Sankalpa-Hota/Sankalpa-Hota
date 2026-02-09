@@ -626,6 +626,19 @@
 }
 
 /* Building section: single column, one after another, colour variation */
+.building-subhead {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin: 0 0 0.75rem 0;
+  letter-spacing: 0.02em;
+}
+
+.building-subhead:not(:first-of-type) {
+  margin-top: 2.5rem;
+}
+
 .research-list {
   display: flex;
   flex-direction: column;
