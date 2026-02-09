@@ -70,8 +70,10 @@
 
 .footer-credit {
   margin: 0;
-  font-size: 0.95rem;
-  color: var(--ink-soft);
+  font-size: 1.15rem;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: var(--ink);
   text-align: center;
 }
 
