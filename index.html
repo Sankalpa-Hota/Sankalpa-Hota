@@ -83,7 +83,7 @@
         <h2>About</h2>
         <p class="pullquote">I'm wired for the gap between silicon and systems. That's where RTL meets reality.</p>
         <div class="narrative">
-          <p>MS ECE from UC San Diego, B.Tech from NIT Rourkela. My stack spans C++, CUDA, Python, PyTorch, and the full IC flow: RTL (Verilog/SystemVerilog), UVM verification, STA, physical design, layout. I've taped out low-power CNN ASICs, data encryption cores for Flash, and MIPS-based designs. At Micron I lived in the firmware-hardware boundary: IP design, reliability, validation for next generation SSDs and microSD. Subject matter expert on PCIe Gen5, NVMe 2.0, 3D NAND, DDR4, LPDDR5, FTL. Three US patents in the pipeline on high-performance memory architecture.</p>
+          <p>MS ECE from UC San Diego, B.Tech from NIT Rourkela. My stack spans C++, CUDA, Python, PyTorch, and the full IC flow: RTL (Verilog/SystemVerilog), UVM verification, STA, physical design, layout. I've taped out low-power CNN ASICs, data encryption cores for Flash, and MIPS-based designs. At Micron I lived in the firmware-hardware boundary: IP design, reliability, validation for next generation SSDs and microSD. Subject matter expert on PCIe Gen5, NVMe 2.0, 3D NAND, DDR4, LPDDR5, FTL. Three US patents in the pipeline on high performance memory architecture.</p>
           <p>What keeps me going is <strong>smarter silicon</strong>. IC design that scales. AI infrastructure that fits in memory and at the edge. I'm drawn to startups for the same reason: first principles, fast iteration, building what doesn't exist yet. I care about clear interfaces between blocks, readable RTL, and verification that actually catches bugs.</p>
         </div>
         <h3 class="section-subhead">Ideas I care about</h3>
@@ -117,7 +117,7 @@
             <p class="coursework">Founder and President, The Short Circuit Club (E&amp;E club, 2021–22). Placement Coordinator, EE Dept., Career Development Center (2021–22). Courses: Embedded Systems, Computer Architecture, Analog and Digital Electronics, DSP, DSA, Machine Learning.</p>
           </article>
         </div>
-        <p class="narrative" style="margin-top: 1.5rem;">At NIT Rourkela I co-founded and led The Short Circuit Club (E&amp;E), and was Placement Coordinator for the EE department. At UCSD I'm in SEELAB focusing on energy-efficient systems and ML accelerators.</p>
+        <p class="narrative" style="margin-top: 1.5rem;">At NIT Rourkela I co-founded and led The Short Circuit Club (E&amp;E), and was Placement Coordinator for the EE department. At UCSD I'm in SEELAB focusing on Low power ASIC design for near memory computing , data encryption and decryption in Flash memory and researching on next generation memory technology (FeRAM & FeNAND).</p>
       </section>
 
       <section class="section scroll-reveal" id="chapters">
@@ -143,17 +143,17 @@
         <h3 class="building-subhead">Featured Research</h3>
         <div class="research-list scroll-reveal-stagger">
           <div class="story-card story-card--1">
-            <h3>Performance-enhanced reconfigurable 2D systolic array</h3>
+            <h3>Performance enhanced reconfigurable 2D systolic array</h3>
             <p class="story-meta">Sept 2025 – Dec 2025</p>
             <p class="story-one">A reconfigurable 2D systolic array for low power CNN inference on FPGA. The design uses input sieving, parallel accumulation, and pipelining to achieve 69% lower convolution latency and 82% memory savings, with 55% fewer MACs. Input channel LUT filtering and MAC accumulation cut clock cycles significantly. The design was synthesized on Cyclone V (Quartus) and verified with UVM.</p>
           </div>
           <div class="story-card story-card--2">
-            <h3>Dual-core ML accelerator for transformer attention</h3>
+            <h3>Dual core ML accelerator for transformer attention</h3>
             <p class="story-meta">Sept 2025 – Ongoing</p>
-            <p class="story-one">A 1-D vector processor with pipelined execution for parallel attention weights. The design includes a custom controller with clock gating, a custom pipelined divider, and accumulator-shifter normalization. Full RTL to GDSII flow, with async FIFOs between cores and block-wise and columnar clock gating for power efficiency.</p>
+            <p class="story-one">A 1D vector processor with pipelined execution for parallel attention weights. The design includes a custom controller with clock gating, a custom pipelined divider, and accumulator-shifter normalization. Full RTL to GDSII flow, with async FIFOs between cores and block-wise and columnar clock gating for power efficiency.</p>
           </div>
           <div class="story-card story-card--3">
-            <h3>Near-memory crypto engine</h3>
+            <h3>ASIC Design ofNear memory crypto engine</h3>
             <p class="story-meta">Sept 2025 – Ongoing</p>
             <p class="story-one">Near memory crypto with AES RTL in Verilog, fully pipelined at PCIe Gen5 throughput. The design handles nonce generation and replay protection, with a clean ready/valid flow and arbitration. DRAM and SRAM interfaces and near-memory ECC are in progress.</p>
           </div>
@@ -179,13 +179,13 @@
             <span class="story-link">GitHub →</span>
           </a>
           <div class="story-card story-card--4">
-            <h3>Biosensors in the sub-nanometer regime</h3>
-            <p class="story-meta">Jul 2021 – May 2022 · NIT Rourkela</p>
+            <h3>Biosensors in the sub nanometer regime</h3>
+            <p class="story-meta">Device Physics, TCAD</p>
             <p class="story-one">Negative capacitance FINFET for biosensing beyond conventional MOSFET limits. Using Synopsys TCAD we characterized Ids-Vgs, threshold voltage, and subthreshold slope, with dielectric modulation from bio-enzymes. The structure showed faster switching, lower leakage, and better power behaviour. Grade A final-year project.</p>
           </div>
           <a href="https://github.com/Sankalpa-Hota/semiconductor-physics-tool" target="_blank" rel="noopener" class="story-card story-card--5">
             <h3>Semiconductor Physics Tool</h3>
-            <p class="story-meta">Flask, Plotly, Python · UCSD</p>
+            <p class="story-meta">Device Physics, Python</p>
             <p class="story-one">An interactive web app to simulate and visualize semiconductor fundamentals: Fermi-Dirac and Boltzmann statistics, Drude conductivity and mobility, phonon scattering and mean free path, Kronig-Penney band structure, and reciprocal lattice. Built for students and researchers in EE, materials, and semiconductor physics. Open source on GitHub.</p>
             <span class="story-link">GitHub →</span>
           </a>
