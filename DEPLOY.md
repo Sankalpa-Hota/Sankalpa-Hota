@@ -90,3 +90,9 @@ In **Settings → Pages**, under **Custom domain**, enter your domain (e.g. `san
 | 4 | Open `https://USERNAME.github.io` or `https://USERNAME.github.io/REPO_NAME/`. |
 
 No build step is required; the site is static HTML, CSS, and JS.
+
+---
+
+## 6. Custom 404 (included)
+
+The repo includes a **404.html** in the root. GitHub Pages will serve it when a visitor hits a URL that doesn’t exist (e.g. a typo or old link), so they see your branded “Page not found” and a link back to the home page instead of the default GitHub 404.

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found · Sankalpa Hota</title>
+  <!-- Base href so CSS/JS work from any 404 URL depth on GitHub Pages -->
+  <base id="base-404" href="/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script>
+    (function() {
+      var parts = location.pathname.split('/').filter(Boolean);
+      var base = parts.length ? '/' + parts[0] + '/' : '/';
+      var el = document.getElementById('base-404');
+      if (el) el.href = base;
+    })();
+  </script>
+  <style>
+    .error-page { text-align: center; padding: 4rem 1.5rem; }
+    .error-page h1 { font-family: var(--font-serif); font-size: clamp(2.5rem, 8vw, 4rem); color: var(--ink); margin: 0 0 0.5rem; }
+    .error-page p { color: var(--ink-soft); font-size: 1.1rem; margin: 0 0 1.5rem; }
+    .error-page .btn { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div id="site-header-placeholder"></div>
+    <main id="main">
+      <section class="error-page">
+        <h1>404</h1>
+        <p>This page isn’t here. Maybe it moved or the link is wrong.</p>
+        <a href="index.html" class="btn btn-primary">Back to home</a>
+      </section>
+    </main>
+    <div id="site-footer-placeholder"></div>
+  </div>
+  <script src="js/layout.js"></script>
+</body>
+</html>
