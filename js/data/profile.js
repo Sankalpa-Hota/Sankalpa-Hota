@@ -12,7 +12,7 @@ window.PROFILE = {
     { title: "Systolic array for CNN inference", oneLine: "Reconfigurable 2D array on FPGA. 69% lower latency, 82% memory savings.", link: null, type: "research" },
     { title: "Dual-core ML accelerator for attention", oneLine: "Vector processor, pipelined attention weights, RTL→GDSII.", link: null, type: "research" },
     { title: "Near-memory crypto engine", oneLine: "AES at PCIe Gen5 throughput; nonce, replay, ready/valid flow.", link: null, type: "research" },
-    { title: "Semiconductor Physics Tool", oneLine: "Flask, Plotly, Python. Fermi-Dirac, Drude, phonon, Kronig-Penney.", link: "https://github.com/Sankalpa-Hota/semiconductor-physics-tool", type: "tool" },
+    { title: "Semiconductor Physics Tool", oneLine: "Device Physics, Plotly, Python. Fermi-Dirac, Drude, phonon, Kronig-Penney.", link: "https://github.com/Sankalpa-Hota/semiconductor-physics-tool", type: "tool" },
     { title: "VLSI PCIe", oneLine: "Verilog endpoint: Physical, Data Link, Transaction; link training, DLLP/TLP.", link: "https://github.com/Sankalpa-Hota/VLSI_PCIe", type: "code" },
     { title: "RTL in Verilog", oneLine: "RTL blocks from basic to advanced.", link: "https://github.com/Sankalpa-Hota/RTL_IN_VERILOG", type: "code" },
     { title: "Chacha20-Poly1305 in-memory", oneLine: "In-memory processing and encryption for memory architectures.", link: "https://github.com/Sankalpa-Hota/Chacha20-Poly1305-Memory-Processing", type: "code" }
