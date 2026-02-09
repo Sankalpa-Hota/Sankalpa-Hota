@@ -1,7 +1,7 @@
 // Update: when you update LinkedIn or GitHub, keep this in sync (headline, now, building, previously, chapters, elsewhere).
 window.PROFILE = {
   headline: "Building at the intersection of silicon and systems.",
-  now: "I'm at UC San Diego (MS ECE), in SEELAB. VLSI and ML accelerators, systolic arrays, attention, near-memory crypto. Before that, three years at Micron: RTL, PCIe Gen5, NVMe 2.0, 3D NAND. Three US patents in the pipeline. I care about smarter silicon and startups.",
+  now: "I'm at UC San Diego (MS ECE), in SEELAB. VLSI and ML accelerators, systolic arrays, attention, near memory crypto. Before that, three years at Micron: RTL, PCIe Gen5, NVMe 2.0, 3D NAND. Three US patents in the pipeline. I care about smarter silicon and startups.",
   elsewhere: {
     linkedin: "https://linkedin.com/in/sankalpa-hota-86937517a/",
     github: "https://github.com/Sankalpa-Hota",
