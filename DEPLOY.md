@@ -96,3 +96,5 @@ No build step is required; the site is static HTML, CSS, and JS.
 ## 6. Custom 404 (included)
 
 The repo includes a **404.html** in the root. GitHub Pages will serve it when a visitor hits a URL that doesn’t exist (e.g. a typo or old link), so they see your branded “Page not found” and a link back to the home page instead of the default GitHub 404.
+
+**If you see "There isn't a GitHub Pages site here"** — that's GitHub's default 404 and usually means Pages isn't enabled or the URL is wrong. See **[GITHUB_PAGES_404.md](GITHUB_PAGES_404.md)** for causes and how to fix it.

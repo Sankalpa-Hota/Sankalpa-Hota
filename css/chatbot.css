@@ -1,24 +1,24 @@
 .chatbot-wrap {
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  top: 1rem;
+  left: 1.5rem;
   z-index: 9999;
   font-family: var(--font-sans);
 }
 
 .chatbot-toggle {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius);
   background: var(--accent);
   color: var(--paper);
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 16px rgba(13, 148, 136, 0.35);
+  box-shadow: 0 2px 12px rgba(13, 148, 136, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s, transform 0.2s;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
 .chatbot-toggle:hover {
@@ -30,8 +30,8 @@
 
 .chatbot-panel {
   position: absolute;
-  bottom: 70px;
-  right: 0;
+  top: 56px;
+  left: 0;
   width: 340px;
   max-width: calc(100vw - 2rem);
   height: 420px;

@@ -53,7 +53,7 @@
           setActiveNav();
         })
         .catch(function () {
-          headerPlaceholder.outerHTML = '<header class="site-header"><a href="index.html" class="logo">Sankalpa Hota</a><nav class="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="connect.html">Connect</a></nav></header>';
+          headerPlaceholder.outerHTML = '<header class="site-header"><a href="index.html" class="logo">Sankalpa Hota</a></header>';
           setActiveNav();
         });
     }
@@ -63,9 +63,10 @@
         .then(function (r) { return r.text(); })
         .then(function (html) {
           footerPlaceholder.outerHTML = html;
+          setActiveNav();
         })
         .catch(function () {
-          footerPlaceholder.outerHTML = '<footer class="site-footer"><p>Sankalpa Hota · <a href="mailto:shota@ucsd.edu">shota@ucsd.edu</a></p></footer>';
+          footerPlaceholder.outerHTML = '<footer class="site-footer"><section class="footer-explore" aria-label="Site navigation"><h2 class="footer-explore-title">Explore</h2><nav class="nav footer-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="connect.html">Connect</a></nav></section><p class="footer-credit">Sankalpa Hota · <a href="mailto:shota@ucsd.edu">shota@ucsd.edu</a></p></footer>';
         });
     }
   }
