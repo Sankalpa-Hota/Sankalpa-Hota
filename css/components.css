@@ -183,11 +183,12 @@
 
 .section-subhead {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--ink);
   margin: 2rem 0 0.75rem;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-lead a { color: var(--accent); text-decoration: none; }
@@ -593,7 +594,7 @@
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--ink-soft);
-  max-width: 52ch;
+  max-width: none;
 }
 
 .narrative p { margin: 0 0 1rem; }
