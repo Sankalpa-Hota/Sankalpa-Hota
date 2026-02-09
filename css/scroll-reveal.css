@@ -1,0 +1,50 @@
+/* Scroll-triggered reveal: sections and staggered items */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.55s var(--ease), transform 0.55s var(--ease);
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered children: start hidden, reveal when parent is visible */
+.scroll-reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease);
+}
+
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(1) { transition-delay: 0.05s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(2) { transition-delay: 0.1s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(3) { transition-delay: 0.15s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(4) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(5) { transition-delay: 0.25s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(6) { transition-delay: 0.3s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(7) { transition-delay: 0.35s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(8) { transition-delay: 0.4s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(9) { transition-delay: 0.45s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(10) { transition-delay: 0.5s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(11) { transition-delay: 0.55s; opacity: 1; transform: translateY(0); }
+.scroll-reveal.is-visible .scroll-reveal-stagger > *:nth-child(12) { transition-delay: 0.6s; opacity: 1; transform: translateY(0); }
+
+/* Sections without stagger: heading and content reveal together with section */
+.scroll-reveal .section-subhead,
+.scroll-reveal .narrative,
+.scroll-reveal .skills-pills,
+.scroll-reveal .page-lead {
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal,
+  .scroll-reveal.is-visible,
+  .scroll-reveal-stagger > * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .scroll-reveal.is-visible .scroll-reveal-stagger > * { transition-delay: 0; }
+}
