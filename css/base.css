@@ -1,0 +1,75 @@
+/* Update: colors/fonts in :root if needed */
+:root {
+  --ink: #1a1a1c;
+  --ink-soft: #2d2d30;
+  --paper: #faf9f6;
+  --paper-warm: #f2efe8;
+  --cream: #e8e2d9;
+  --gold: #8b7355;
+  --gold-light: #a89078;
+  --forest: #243021;
+  --forest-light: #3d5239;
+  --burgundy: #5c3d3d;
+  --burgundy-soft: #6b4a4a;
+  --accent: #4a6741;
+  --border: rgba(36, 48, 33, 0.12);
+  --border-strong: rgba(36, 48, 33, 0.2);
+  --radius: 8px;
+  --radius-sm: 4px;
+  --shadow: 0 2px 8px rgba(36, 48, 33, 0.06);
+  --shadow-hover: 0 8px 24px rgba(36, 48, 33, 0.1);
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 0.25s var(--ease);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -4rem;
+  left: 1.5rem;
+  z-index: 101;
+  padding: 0.5rem 1rem;
+  background: var(--forest);
+  color: var(--paper);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: var(--radius);
+  transition: top 0.2s var(--ease);
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
