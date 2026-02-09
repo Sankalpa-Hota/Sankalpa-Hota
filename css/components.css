@@ -1,6 +1,5 @@
 .hero {
   padding: 5rem 0 5rem;
-  text-align: center;
   position: relative;
 }
 
@@ -15,6 +14,39 @@
   background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--accent-soft) 0%, transparent 70%);
   pointer-events: none;
   z-index: -1;
+}
+
+.hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-copy {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
+.hero-photo-wrap {
+  flex: 0 0 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 2px solid var(--border-strong);
+  box-shadow: var(--shadow-card);
+}
+
+@media (max-width: 640px) {
+  .hero-inner {
+    flex-direction: column-reverse;
+  }
 }
 
 .hero .hero-greeting {
@@ -57,8 +89,6 @@
   margin: 0 0 2rem;
   line-height: 1.75;
   max-width: 36ch;
-  margin-left: auto;
-  margin-right: auto;
   opacity: 0;
   animation: fadeUp 0.6s var(--ease) 0.4s forwards;
 }
@@ -67,8 +97,6 @@
   max-width: 65ch;
   font-size: 1.05rem;
   text-align: left;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .skills-home-section { padding-top: 2rem; }
