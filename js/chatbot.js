@@ -1,3 +1,4 @@
+// Update chatbot behavior and UI wiring here
 (function () {
   'use strict';
 

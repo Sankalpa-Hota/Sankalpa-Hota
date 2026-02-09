@@ -1,3 +1,4 @@
+// Update header/footer includes and nav highlighting here
 (function () {
   'use strict';
 

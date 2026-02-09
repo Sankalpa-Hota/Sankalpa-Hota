@@ -1,4 +1,4 @@
-// Update: greeting, fallback, links and replies when you change site content
+// Update chatbot FAQs and personal info here
 window.CHATBOT_KNOWLEDGE = {
   greeting: "Hi, I'm a quick FAQ bot for Sankalpa's site. Ask about education, experience, projects, blog, GitHub, or how to contact him. Try: \"What does Sankalpa do?\" or \"How can I reach him?\"",
 
