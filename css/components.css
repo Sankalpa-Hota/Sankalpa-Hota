@@ -473,27 +473,6 @@
 
 .connect-value { font-size: 0.95rem; color: var(--ink); font-weight: 500; }
 
-.email-flat-btn {
-  display: inline-block;
-  margin-bottom: 1.75rem;
-  padding: 0.5rem 1.25rem;
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--ink-soft);
-  background: var(--paper-warm);
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  text-decoration: none;
-  transition: background var(--transition), color var(--transition), border-color var(--transition), box-shadow var(--transition);
-}
-
-.email-flat-btn:hover {
-  background: var(--paper);
-  border-color: var(--accent);
-  color: var(--accent);
-  box-shadow: var(--shadow);
-}
-
 .connect-cta-section {
   padding-top: 0;
   padding-bottom: 1.5rem;
@@ -531,21 +510,6 @@
   color: var(--ink-soft);
   text-decoration: none;
   transition: background var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition), transform var(--transition);
-}
-
-.connect-icon-linkedin::before {
-  content: "in";
-  font-weight: 600;
-}
-
-.connect-icon-github::before {
-  content: "gh";
-  font-weight: 600;
-}
-
-.connect-icon-instagram::before {
-  content: "ig";
-  font-weight: 600;
 }
 
 .connect-icon:hover {
