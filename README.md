@@ -4,7 +4,6 @@
 
 I design and verify chips: the RTL inside **AI accelerators, CPUs and memory systems**, and the UVM/SVA testbenches that prove it works before silicon.<br>
 MS ECE at **UC San Diego** · ASIC Design & Verification intern at **Qualcomm** (WLAN PHY) · 3 years at **Micron** (NVMe NAND Flash) · **3 US patents**.<br>
-Looking for full-time **RTL Design & Design Verification** roles from Dec 2026. Off the clock: travel, movies, gym and swimming.
 
 ### Best work
 
@@ -23,6 +22,5 @@ Looking for full-time **RTL Design & Design Verification** roles from Dec 2026. 
 <p>
   <a href="https://sankalpa-hota.github.io/">Website</a> ·
   <a href="https://linkedin.com/in/sankalpa-hota-86937517a/">LinkedIn</a> ·
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sankalpahota503@gmail.com&su=Hello%20from%20GitHub">Email</a> ·
-  <a href="https://www.instagram.com/sankalpa_hota_/">Instagram</a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sankalpahota503@gmail.com&su=Hello%20from%20GitHub">Email</a> 
 </p>
