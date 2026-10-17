@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Sankalpa Hota</title>
+<script>
+  // old links like /Sankalpa-Hota/Reports/x.pdf -> https://sankalpa-hota.github.io/Reports/x.pdf
+  var rest = location.pathname.replace(/^\/Sankalpa-Hota\/?/, '');
+  location.replace('https://sankalpa-hota.github.io/' + rest + location.search + location.hash);
+</script>
+</head><body><a href="https://sankalpa-hota.github.io/">Sankalpa Hota's portfolio has moved here</a></body></html>
