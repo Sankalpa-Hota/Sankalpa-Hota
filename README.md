@@ -1,9 +1,10 @@
 <p align="center">
-  <a href="https://sankalpa-hota.github.io/"><img src="banner.svg" alt="Sankalpa Hota: RTL Design and Design Verification" width="100%"></a>
+  <a href="https://sankalpa-hota.github.io/"><img src="banner.svg" alt="Sankalpa Hota: Design Verification Engineer" width="100%"></a>
 </p>
 
 I design and verify chips: the RTL inside **AI accelerators, CPUs and memory systems**, and the UVM/SVA testbenches that prove it works before silicon.<br>
 MS ECE at **UC San Diego** · ASIC Design & Verification intern at **Qualcomm** (WLAN PHY) · 3 years at **Micron** (NVMe NAND Flash) · **3 US patents**.<br>
+A passionate **Design Verification** engineer: I break chips so they don't break in silicon.
 
 ### Best work
 
